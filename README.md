@@ -1,5 +1,5 @@
 # pokerhandcompare
-Compares two poker hands and decided the winner
+Compares two poker hands and decides the winner
 
 ##Note
 
