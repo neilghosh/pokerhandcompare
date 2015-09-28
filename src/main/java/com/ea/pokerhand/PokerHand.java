@@ -30,8 +30,8 @@ public class PokerHand {
      * @param hand1 first hand
      * @param hand2 second hand
      * @return 0  Draw
-     *         1  h1 wins
-     *        -1  h2 wins
+     *         1  hand1 wins
+     *        -1  hand2 wins
      *       -99  Invalid Input
      */
     public int evaluate(Hand hand1, Hand hand2) {
