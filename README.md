@@ -16,30 +16,30 @@ Compares two poker hands and decides the winner
 install JDK 1.8
 
 ```
-export JAVA_HOME=<path to jdk installation>
-```
-
-Install git
-
-```
-sudo apt-get install git
-```
-
-Clone repo
-
-```
-git@github.com:neilghosh/pokerhandcompare.git
-cd pokerhandcompare
+$ export JAVA_HOME=<path to jdk installation>
 ```
 
 Install maven
 
 ```
-sudo apt-get install maven2
+$ sudo apt-get install maven2
+```
+
+Install git
+
+```
+$ sudo apt-get install git
+```
+
+Clone repo
+
+```
+$ git clone git@github.com:neilghosh/pokerhandcompare.git
+cd pokerhandcompare
 ```
 
 Run tests
 
 ```
-mvn test
+$ mvn test
 ```
